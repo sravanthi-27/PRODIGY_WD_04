@@ -23,3 +23,9 @@ This portfolio website is designed to provide an overview of my professional bac
 - JavaScript
 
  ## link of the project:
+
+ https://github.com/sravanthi-27/PRODIGY_WD_04
+
+ ## Screenshot of the website
+
+ ![Screenshot 2024-05-23 151300](https://github.com/sravanthi-27/PRODIGY_WD_04/assets/170450054/9da5188a-dafd-4892-ace0-261cb13f8ba4)
