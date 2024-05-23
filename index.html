@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <img src="full background.jpg" alt="fullPfull background image" class="profile-photo">
+            <h2>Web Developer</h2>
+            <p>Welcome to my portfolio! I create beautiful and functional websites.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with a strong background in creating user-friendly websites. I am pursuing BTech 3rd year in St. Mary's Women's Engineering College.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>BTech in Computer Science and Engineering.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit-form" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
